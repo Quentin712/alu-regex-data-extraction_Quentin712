@@ -1,0 +1,46 @@
+{
+  "emails": {
+    "official": [
+      "j***@alueducation.com",
+      "k***@alueducation.com"
+    ],
+    "alumni": [
+      "j***@alumni.alueducation.com",
+      "s***@alumni.alueducation.com"
+    ],
+    "si": [
+      "s***@si.alueducation.com"
+    ],
+    "external": [
+      "c***@gmail.com",
+      "r***@yahoo.com"
+    ],
+    "spoofed": [
+      "f***@alueducation.com.phish-domain.net",
+      "n***@si.alueducation.com.attacker.io"
+    ]
+  },
+  "credit_cards_found": [
+    "**** **** **** 0366",
+    "**** **** **** 9994"
+  ],
+  "phone_numbers": [
+    "+250 788 123 456",
+    "0788-123-456",
+    "(202) 555-0143",
+    "202.555.0199",
+    "+250790112233",
+    "250-72-233-4455",
+    "078-111-2233"
+  ],
+  "urls": [
+    "https://payments.alu.edu/receipts/88213",
+    "http://contractorworks.com/portfolio",
+    "http://alu-verify-account.ru/login?user=admin",
+    "https://docs.google.com/document/d/1a2b3c4d5e/edit"
+  ],
+  "security_summary": {
+    "lines_flagged_and_ignored": 3,
+    "note": "Flagged lines matched known attack patterns (script tags, event handlers, or SQL injection strings) and were excluded before extraction ran."
+  }
+}
