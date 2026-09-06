@@ -35,19 +35,6 @@ entirely and its content is never written to the console or the output
 file. Logging an attack payload back out doesn't make it safer, it just
 gives it a second home.
 
-Email validation deserves a specific note. It would be easy to write a
-check like `email.endswith("alueducation.com")` or a regex ending in
-`\b`, and both would be wrong. `\b` only checks for a boundary between a
-word character and a non-word character, and a dot counts as a
-non-word character, so an address like
-`fake@alueducation.com.phish-domain.net` would still pass that check
-even though the real domain is `phish-domain.net`. This program instead
-splits each email on the last `@`, lowercases the result, and compares
-the entire domain string exactly against ALU's three known domains.
-Anything that contains "alueducation" without matching exactly is
-flagged as `spoofed` rather than silently discarded, so it still shows
-up in the report as something worth a second look.
-
 Anything sensitive that does make it into the output is masked. Credit
 card numbers show only their last four digits. Email addresses show
 only the first character of the local part plus the full domain.
