@@ -9,14 +9,22 @@ import json
 import re
 import sys
 from pathlib import Path
-
+""" Project root folder, so paths work no matter where you run the script from. """"
 BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_FILE = BASE_DIR / "input" / "raw-text.txt"
 OUTPUT_FILE = BASE_DIR / "output" / "sample-output.json"
 
+"""" Matches standard email addresses: name@domain.tld. """"
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
+
+""" Matches 13-19 digit runs (spaces/dashes allowed) that could be a card number.
+    Lookbehind/lookahead stop it from grabbing part of a longer digit string. """
 CARD_CANDIDATE_PATTERN = re.compile(r"(?<!\d)(?:\d[ -]?){13,19}(?!\d)")
+
+""" Matches http/https links, stops at whitespace or a quote character. """ 
 URL_PATTERN = re.compile(r"https?://[^\s\"'<>]+")
+
+""" Matches common phone formats: +country code, parentheses, dashes, dots, or none at all. """"
 PHONE_PATTERN = re.compile(r"(?<!\w)\+?\(?\d{2,4}\)?[\d\-.\s]{5,15}\d(?!\w)")
 
 SUSPICIOUS_PATTERNS = [
