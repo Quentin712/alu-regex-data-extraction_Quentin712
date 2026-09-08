@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_FILE = BASE_DIR / "input" / "raw-text.txt"
 OUTPUT_FILE = BASE_DIR / "output" / "sample-output.json"
 
-"""" Matches standard email addresses: name@domain.tld. """"
+""" Matches standard email addresses: name@domain.tld. """
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
 """ Matches 13-19 digit runs (spaces/dashes allowed) that could be a card number.
