@@ -9,7 +9,7 @@ import json
 import re
 import sys
 from pathlib import Path
-""" Project root folder, so paths work no matter where you run the script from. """"
+""" Project root folder, so paths work no matter where you run the script from. """
 BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_FILE = BASE_DIR / "input" / "raw-text.txt"
 OUTPUT_FILE = BASE_DIR / "output" / "sample-output.json"
