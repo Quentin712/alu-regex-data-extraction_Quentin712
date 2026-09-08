@@ -24,7 +24,7 @@ CARD_CANDIDATE_PATTERN = re.compile(r"(?<!\d)(?:\d[ -]?){13,19}(?!\d)")
 """ Matches http/https links, stops at whitespace or a quote character. """ 
 URL_PATTERN = re.compile(r"https?://[^\s\"'<>]+")
 
-""" Matches common phone formats: +country code, parentheses, dashes, dots, or none at all. """"
+""" Matches common phone formats: +country code, parentheses, dashes, dots, or none at all. """
 PHONE_PATTERN = re.compile(r"(?<!\w)\+?\(?\d{2,4}\)?[\d\-.\s]{5,15}\d(?!\w)")
 """" Attack patterns to reject: script tags, JS links, event handlers, and SQL injection. """"
 SUSPICIOUS_PATTERNS = [
